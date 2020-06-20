@@ -1,0 +1,36 @@
+.col-50{
+    width: 42%;
+    margin: 4%;
+    display: inline-block;
+}
+.m-more{
+    text-decoration: none !important;
+    color: #000;
+}
+.m-poster{
+    background-color: #000;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.m-rating{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 4px 10px;
+
+    .mat-icon{
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+    }
+}
+.m-name{
+    font-size: 13px;
+    background: #111;
+    color: #fff;
+    padding: 10px 5px;
+}

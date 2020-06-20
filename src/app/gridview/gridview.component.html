@@ -1,0 +1,15 @@
+<div class="movies-list">
+    <div class="movie-item col-50" *ngFor="let movie of moviesArray">
+        <a href="movie-details-{{movie.id}}" class="m-more">
+            <div class="m-poster">
+                <img src="{{movie.poster}}" alt="" />
+                <div class="m-rating">
+                    {{movie.rating}} <mat-icon aria-hidden="false" aria-label="Menu icon">star</mat-icon>
+                </div>
+            </div>
+            <div class="m-name">
+                {{movie.title}}
+            </div>
+        </a>
+    </div>
+</div>

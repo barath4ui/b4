@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row class="menu-toolbar">
+      <button type="button" class="menu-button" mat-button (click)="drawer.toggle()">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon>
+      </button>
+      <span>Popular</span>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-drawer #drawer class="example-sidenav" mode="over">
+    <mat-list class="menu-list">
+      <mat-list-item>Popular</mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>Search</mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>About</mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>Share</mat-list-item>
+    </mat-list>
+</mat-drawer>
